@@ -11,7 +11,7 @@ QuickPass is a simple yet powerful password generator that helps users create st
 - Responsive design for all devices
 
 ## Live Demo
-🔗 **[Live Preview](https://your-username.github.io/repository-name/)**
+🔗 **[Live Preview](https://nikhilshukla2161.github.io/QuickPass/)**
 
  
 
@@ -29,7 +29,7 @@ QuickPass is a simple yet powerful password generator that helps users create st
 ## Installation Instructions
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/repository-name.git
+   git clone https://github.com/nikhilshukla2161/QuickPass.git
    ```
 2. Navigate to the project folder:
    ```sh
