@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuickPass: Fast & Secure Password Generator</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Linking external CSS file -->
+  </head>
+
+  <body>
+    <div class="main">
+      <!-- Main container with a background -->
+      <div class="box">
+        <!-- Box container for the password generator -->
+
+        <!-- Displays the generated password -->
+        <span id="pass-box"></span>
+
+        <!-- Copy button (icon) for copying the password -->
+        <img src="assets/copy.svg" alt="Copy" id="copy" />
+
+        <!-- Row for password length input -->
+        <div class="row">
+          <div class="left">Password Length</div>
+          <div class="right">
+            <input type="number" id="total-char" max="30" min="2" value="10" />
+          </div>
+        </div>
+
+        <!-- Checkbox for including uppercase letters -->
+        <div class="row">
+          <label for="upper-case">
+            <div class="left">Contains Uppercase</div>
+          </label>
+          <div class="right">
+            <input type="checkbox" id="upper-case" class="check" />
+          </div>
+        </div>
+
+        <!-- Checkbox for including lowercase letters -->
+        <div class="row">
+          <label for="lower-case">
+            <div class="left">Contains Lowercase</div>
+          </label>
+          <div class="right">
+            <input type="checkbox" id="lower-case" class="check" />
+          </div>
+        </div>
+
+        <!-- Checkbox for including numbers -->
+        <div class="row">
+          <label for="numbers">
+            <div class="left">Contains Numbers</div>
+          </label>
+          <div class="right">
+            <input type="checkbox" id="numbers" class="check" />
+          </div>
+        </div>
+
+        <!-- Checkbox for including symbols -->
+        <div class="row">
+          <label for="symbols">
+            <div class="left">Contains Symbols</div>
+          </label>
+          <div class="right">
+            <input type="checkbox" id="symbols" class="check" />
+          </div>
+        </div>
+
+        <!-- Button to generate a new password -->
+        <div class="row">
+          <button id="btn">Generate</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript file for functionality -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
